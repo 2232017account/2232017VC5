@@ -1,0 +1,112 @@
+@charset "utf-8";
+body {
+    background-color: #131010;
+    margin: 0;
+    font-family: "ＭＳ Ｐ明朝";
+}
+#tenmei {
+    background-color: #131010;
+}
+#tenmei img {
+    width: 60px;
+    margin: 15px 100px 0px 25px;
+	border-radius: 5px;
+}
+.ddmenu {
+	display: flex;
+	justify-content: center;
+    background-color: #2D2D2D;
+}
+.ddmenu a{
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+.ddmenu li {
+    width: 125px;
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+.ddmenu ul{
+	display: none;
+ 	margin: 0px;
+ 	padding: 0px;
+ 	position: absolute;
+	z-index: 10;
+}
+.ddmenu a:hover {
+    color: #dd0000;
+}
+#video {
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#video p {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 250%;
+}
+#video video{
+    background-color: #131010;
+	border-radius: 30px;
+    width: 65%;
+}
+.key {
+    color: #B11708;
+	font-size: 120%;
+}
+.menu {
+    background-color: #2D2D2D;
+	width: 45%;
+	margin: 10px;
+	text-align: center;
+}
+.menu img {
+    border-radius: 10px;
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+}
+.menu p {
+    color: #FFFFFF;
+    margin: 10px 0 0;
+    font-size: large;	
+}
+.wrap  {
+    display: flex;
+	justify-content: center;
+	background-color: #2D2D2D;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+h2 {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 50px;
+    font-style: italic;
+}
+#footer {
+    background-color: #131010;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.name {
+    font-size: 150%;
+    font-weight: bold;
+}
+@media (max-width: 850px) {
+    .menu {
+        width: 90%; /* 狭い画面では幅をさらに広げて中央揃え */
+    }
+}
