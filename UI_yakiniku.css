@@ -7,10 +7,8 @@ body {
 #tenmei {
     background-color: #131010;
 }
-#tenmei img {
-    width: 60px;
-    margin: 15px 100px 0px 25px;
-	border-radius: 5px;
+#tenmei img{
+	margin: 10px 30px 10px 10px;
 }
 .ddmenu {
 	display: flex;
@@ -65,7 +63,7 @@ body {
 }
 .menu {
     background-color: #2D2D2D;
-	width: 45%;
+	width: 30%;
 	margin: 10px;
 	text-align: center;
 }
@@ -98,15 +96,59 @@ h2 {
     background-color: #131010;
     color: #FFFFFF;
     font-weight: bold;
-    margin-left: 50px;
+	margin-right: 40px;
+    margin-left: 0px;
     margin-top: 30px;
 }
 .name {
     font-size: 150%;
     font-weight: bold;
 }
-@media (max-width: 850px) {
+.color {
+    color: #e6b422;
+	font-size: 130%;
+}
+#sumi {
+	background-color: #2D2D2D;
+	width: 100%;
+	text-align: center;
+}
+#sumi img {
+    border-radius: 10px;
+	width: 20%
+}
+#tennai {
+	background-color: #2D2D2D;
+	width: 100%;
+	text-align: center;
+}
+#tennai img {
+    border-radius: 10px;
+	width: 20%;
+	margin: 20px 0px 10px 0px;
+}
+h3 {
+	color: #FFFFFF;
+    width: 100%;
+    font-style: italic;
+}
+body div iframe {
+	margin: 10px 0px 0px 30px;
+}
+body div p {
+	color: #FFFFFF;
+	margin: 30px;
+	font-size: large;
+	font-weight: bold;
+}
+#mail {
+	margin: 90px 0px 0px 450px;
+	color: #FFFFFF;
+    font-weight: bold;
+}
+
+@media (max-width: 1250px) {
     .menu {
-        width: 90%; /* 狭い画面では幅をさらに広げて中央揃え */
+    width: 120%; /* 狭い画面では幅をさらに広げて中央揃え */
     }
 }
